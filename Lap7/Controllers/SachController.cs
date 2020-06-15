@@ -12,7 +12,7 @@ namespace Lap7.Controllers
     {
         Sach[] sachs = new Sach[] {
             new Sach {Id =1, Title = "ABC", Author = "XYZ", Price =1, Content="EGH" },
-            new Sach {Id =2, Title = "ABCDEF", Author = "XYZzzzzzzzzzzzzzzzzz", Price =1, Content="EGHIKLM" },
+            new Sach {Id =2, Title = "Mệt", Author = "Tui đó", Price =1, Content="aaaaaaaaaaaaaaaaizzzzzzzzzzzzzzzzzzzzzzzzz" },
         };
         public IEnumerable<Sach> GetAll()
         {
